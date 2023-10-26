@@ -1,0 +1,54 @@
+.body-container{
+    /* position: absolute;
+    top:5%; */
+    /* margin: 15px 40px; */
+padding: 92px 72px;
+ 
+  
+}
+
+::-webkit-scrollbar {display:none;}
+
+.foodCard-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 35px;
+}
+.filter{
+    margin-top: -29px;
+ margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-bar>input{
+    height: 32px;
+    width: 200px;
+    border-radius: 5px;
+   padding: 0px 5px;
+}
+.search-btn{
+    margin-left: 12px;
+    padding: 5px 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.filter-btn{
+padding: 12px;
+border-radius: 5px;
+font-size: 0.9rem;
+border: 0;
+outline: 0;
+cursor: pointer;
+font-weight: 800;
+color: #fff;
+background-color: #000;
+transition: all .4s ease;
+}
+.filter-btn:hover{
+    border: 1px solid black;
+    background-color: #fff;
+    transform:background-color;
+  
+    color: #000;
+
+}

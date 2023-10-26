@@ -1,0 +1,34 @@
+.cards-container{
+    width: 300px;
+    height:auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 12px;
+  cursor: pointer;
+   border-radius: 20px;
+   transition: all .5s ease-in;
+
+}
+.cards-container:hover{
+    border-bottom: 1px solid black;
+    transform: scale(0.9);
+
+   
+}
+.restcards-img{
+    width: 100%;
+   height: 270px;
+    border-radius: 20px;
+}
+.cards{
+   padding: 15px;
+   line-height: 1.5;
+}
+
+.cards:hover{
+    color: rgb(62, 75, 75);
+
+}
+.cards .cuisines{
+    font-size: 0.75rem;
+   
+   }
